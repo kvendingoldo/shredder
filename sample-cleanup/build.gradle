@@ -34,7 +34,7 @@ ospackage {
     license "Adobe Audience Manager"
     vendor "Adobe Audience Manager"
     url "http://www.adobe.com/products/audiencemanager.html"
-    archStr "noarch"
+    archStr "$DIST_ARCH"
 
     packageName "aam-${project.name}"
     release "${new Date().format('yyyyMMddHHmmss')}"
